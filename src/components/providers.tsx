@@ -22,7 +22,9 @@ const Providers: FC<PropsWithChildren> = ({ children }) => {
   return (
     <QueryClientProvider client={queryClient}>
       <SuiClientProvider networks={networkConfig} defaultNetwork="localnet">
-        <WalletProvider>{children}</WalletProvider>
+        <WalletProvider stashedWallet={{ name: "BreakSui#" }}>
+          {children}
+        </WalletProvider>
       </SuiClientProvider>
     </QueryClientProvider>
   );
