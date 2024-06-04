@@ -1,7 +1,5 @@
 "use client";
 
-import "@mysten/dapp-kit/dist/index.css";
-
 import {
   createNetworkConfig,
   SuiClientProvider,
