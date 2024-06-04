@@ -1,7 +1,7 @@
 import useSWR from "swr";
 
 export const useTps = () =>
-  useSWR("useTPS", async () => {
+  useSWR(useTps.name, async () => {
     const res = await fetch("/api/v1/tps", {
       headers: {
         "Content-Type": "application/json",

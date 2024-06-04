@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Work+Sans:wght@700&display=swap");
-
 .app {
   display: flex;
   flex-direction: column; /* Align children vertically */

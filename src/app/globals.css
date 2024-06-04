@@ -1,5 +1,7 @@
 @import "@mysten/dapp-kit/dist/index.css";
 
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Work+Sans:wght@700&display=swap");
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
